@@ -21,5 +21,5 @@ def index():
     return render_template('index.html')
 
 if __name__=='__main__':
-    print('curl -F "file=@test.jpg" http://x:%d/upload/' % port)
+    print('curl -F "file=@test.jpg" http://g.bnrc.es2q.com:%d/upload/' % port)
     app.run(host='0.0.0.0', port=port)
